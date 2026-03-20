@@ -1,0 +1,41 @@
+# Unified requirements for CarePilot
+# This includes dependencies for both Agentic Pipeline and Finetuning
+
+# Core dependencies
+numpy>=1.19.0
+pillow>=8.0.0
+requests>=2.25.0
+
+# HuggingFace
+datasets>=2.14.0
+huggingface-hub>=0.10.0
+transformers>=4.35.0
+accelerate>=0.24.0
+
+# PEFT for efficient fine-tuning
+peft>=0.6.0
+bitsandbytes>=0.41.0  # For QLoRA (optional but recommended)
+
+# OpenAI client for Deep Infra API
+openai>=1.0.0
+
+# PyTorch (install based on your CUDA version)
+# For CUDA 11.8: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# For CPU: pip install torch torchvision torchaudio
+torch>=2.0.0
+
+# Utilities
+tqdm>=4.65.0
+pandas>=2.0.0
+
+# Optional but recommended
+sentencepiece>=0.1.99  # For tokenizer
+protobuf>=3.20.0
+
+# For evaluation metrics (optional)
+scikit-learn>=1.3.0
+
+# Testing
+pytest>=6.0.0
+pytest-mock>=3.0.0
+

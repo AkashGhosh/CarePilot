@@ -1,0 +1,21 @@
+# Requirements for Agentic Pipeline
+
+# Core dependencies
+numpy>=1.19.0
+pillow>=8.0.0
+requests>=2.25.0
+
+# HuggingFace
+datasets>=2.0.0
+huggingface-hub>=0.10.0
+
+# OpenAI client for Deep Infra API
+openai>=1.0.0
+
+# Utilities
+tqdm>=4.45.0
+
+# Testing
+pytest>=6.0.0
+pytest-mock>=3.0.0
+
