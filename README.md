@@ -10,7 +10,7 @@ To overcome this, we propose **CarePilot**, a multi-agent framework based on the
 
 ## Overview
 
-CarePilot consists of two main components:
+CarePilot consists of two main components. They are mentioned below:
 
 1. **Agentic Pipeline**: An agent-based system that uses target and critic agents to process medical imaging tasks through a hierarchical reflection architecture.
 2. **Finetuning**: Supervised fine-tuning code for training vision-language models on task results.
