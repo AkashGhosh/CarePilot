@@ -1,6 +1,4 @@
-# CarePilot
 
-A comprehensive medical visual agent system with agentic pipeline and model fine-tuning capabilities.
 
 ## Abstract
 
