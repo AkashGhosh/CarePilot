@@ -129,7 +129,7 @@ CarePilot's training uses a **Critic-distillation** pipeline. The Actor–Critic
 
 ### Dataset Statistics
 
-| Split | # Tasks | Avg. Steps | Min | Max | OOD | Actions |
+| Split |  Tasks | Avg. Steps | Min | Max | OOD | Actions |
 |---|---|---|---|---|---|---|
 | Train | 735 | 12.7 | 7 | 22 | — | 6 |
 | Test | 315 | 12.9 | 9 | 24 | 50 | 6 |
