@@ -385,13 +385,15 @@ python -c "from config import get_config; print('Config loaded successfully')"
 
 ---
 
-<!-- ## Citation
+## Citation
+
+If you find our work useful or use it in your research, please consider citing:
 
 ```bibtex
-@inproceedings{ghosh2026carepilot,
+@article{ghosh2026carepilot,
   title={CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare},
-  author={Akash Ghosh and Tajamul Ashraf and Rishu Kumar Singh and Numan Saeed and Sriparna Saha and Xiuying Chen and Salman Khan},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2026},
-} -->
-
+  author={Ghosh, Akash and Ashraf, Tajamul and Singh, Rishu Kumar and Saeed, Numan and Saha, Sriparna and Chen, Xiuying and Khan, Salman},
+  journal={arXiv preprint arXiv:2603.24157},
+  year={2026}
+}
+```
